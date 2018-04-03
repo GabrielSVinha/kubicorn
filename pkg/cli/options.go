@@ -91,3 +91,7 @@ type VersionOptions struct {
 	GOARCH    string `json:"GOARCH"`
 	GOOS      string `json:"GOOS"`
 }
+
+type SshOptions struct {
+	Options
+}
